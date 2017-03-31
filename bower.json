@@ -1,0 +1,113 @@
+{
+  "name": "fuel now network retail portal",
+  "version": "0.0.0",
+  "authors": [
+    "Irfan <rayachuruirfan@gmail.com>",
+    "Naqui <mnq.naqui@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "angular-bootstrap": "~0.14.1",
+    "dropzone": "~4.2.0",
+    "eon-map": "~0.2.9",
+    "pubnub-angular": "~1.1.0",
+    "angular": "~1.4.8",
+    "angular-bindonce": "~0.3.3",
+    "angular-spinner": "git://github.com/urish/angular-spinner.git#~0.6.2",
+    "angular-ui-router-styles": "~0.0.6",
+    "angular-datetime": "~2.0.0",
+    "ng-context-menu": "~1.0.2",
+    "angular-rangeslider": "git://github.com/danielcrisp/angular-rangeslider",
+    "angular-sanitize": "~1.4.8",
+    "angular-messages": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-loader": "~1.4.8",
+    "angular-local-storage": "0.1.5",
+    "angular-touch": "~1.4.8",
+    "angular-ui-utils": "~3.0.0",
+    "ngMask": "angular-mask#~3.0.16",
+    "ng-file-upload-shim": "~10.0.2",
+    "angular-bootstrap-datetimepicker": "~0.4.0",
+    "angular-loading-bar": "~0.8.0",
+    "underscore": "~1.8.3",
+    "font-awesome": "fontawesome#~4.5.0",
+    "angular-ui-grid": "~3.0.7",
+    "angular-cookies": "~1.5.5",
+    "angular-screenfull": "~0.1.1",
+    "screenfull": "~3.0.0"
+  },
+  "overrides": {
+    "eon-map": {
+      "main": [
+        "pubnub-mapbox.js",
+        "lib/mapbox.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.min.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.svg"
+      ]
+    },
+    "dropzone": {
+      "main": [
+        "dist/min/basic.min.css",
+        "dist/min/dropzone.min.css",
+        "dropzone.min.js",
+        "dropzone-amd-module.min.js"
+      ]
+    },
+    "angular-loading-bar": {
+      "main": [
+        "build/loading-bar.min.css",
+        "build/loading-bar.min.js"
+      ]
+    },
+    "angular-bootstrap-datetimepicker": {
+      "main": [
+        "src/css/datetimepicker.css",
+        "src/js/datetimepicker.js"
+      ]
+    },
+    "angular-bootstrap": {
+      "main": [
+        "./ui-bootstrap-csp.css",
+        "./ui-bootstrap.min.js",
+        "./ui-bootstrap-tpls.min.js"
+      ]
+    },
+    "screenfull": {
+      "main": [
+        "./dist/screenfull.min.js"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "~1.4.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.4",
+    "sinon": "^2.1.0",
+    "bardjs": "^0.1.10"
+  }
+}
